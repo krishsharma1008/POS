@@ -17,7 +17,7 @@ export default function CheckoutPage() {
       </h1>
 
       <section className="mb-16">
-        <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+        <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           Tax and Gratuity Settings
         </h2>
         <div className="space-y-10">
@@ -43,7 +43,7 @@ export default function CheckoutPage() {
                 follow tax setting, whether it is put before or after discount
               </p>
             </div>
-            <button className="rounded-md border border-[#4d9cf5] px-5 py-3 text-[1rem] text-[#2d7fd2]">
+            <button className="rounded-md border border-[#0B4DA2] px-5 py-3 text-[1rem] text-[#2d7fd2]">
               Set Outlets
             </button>
           </div>
@@ -59,7 +59,7 @@ export default function CheckoutPage() {
       </section>
 
       <section className="mb-16">
-        <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+        <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           Rounding Settings
         </h2>
         <div className="flex items-center justify-between">
@@ -69,7 +69,7 @@ export default function CheckoutPage() {
       </section>
 
       <section>
-        <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+        <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           Shift Settings
         </h2>
         <div className="flex items-center justify-between">

@@ -26,7 +26,7 @@ export default function PublicProfilePage() {
 
   return (
     <div className="max-w-[920px] px-6 py-4">
-      <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+      <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
         Account Profile
       </h2>
 

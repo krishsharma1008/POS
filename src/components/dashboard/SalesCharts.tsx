@@ -41,7 +41,7 @@ export default function SalesCharts() {
             <Line
               type="monotone"
               dataKey="amount"
-              stroke="#2563eb"
+              stroke="#0B4DA2"
               strokeWidth={2}
               dot={false}
             />
@@ -63,7 +63,7 @@ export default function SalesCharts() {
             <Line
               type="monotone"
               dataKey="amount"
-              stroke="#2563eb"
+              stroke="#0B4DA2"
               strokeWidth={2}
               dot={false}
             />

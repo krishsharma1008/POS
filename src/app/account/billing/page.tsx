@@ -5,17 +5,17 @@ import { CalendarClock, WalletCards, ChevronRight } from "lucide-react";
 import { billingHistoryRows } from "@/lib/mock-data/account";
 
 export default function BillingPage() {
-  const [billingCycle, setBillingCycle] = useState("Moka Monthly");
+  const [billingCycle, setBillingCycle] = useState("BUKU-POS Monthly");
 
   return (
     <div className="px-6 py-4">
-      <h1 className="mb-14 text-[2.6rem] font-bold leading-none text-[#0d2a42]">
+      <h1 className="mb-14 text-[2.6rem] font-bold leading-none text-[#082f5a]">
         Billing
       </h1>
 
       <div className="grid gap-12 xl:grid-cols-[1fr_0.95fr]">
         <section>
-          <h2 className="mb-10 text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h2 className="mb-10 text-[1.15rem] font-semibold text-[#082f5a]">
             Current Plan
           </h2>
           <div className="rounded-[22px] bg-[#fafafa] px-8 py-8 shadow-sm">
@@ -24,7 +24,7 @@ export default function BillingPage() {
                 <CalendarClock size={30} />
                 <span className="text-[1.1rem] font-semibold">Subscription plan</span>
               </div>
-              <span className="text-[1.1rem] text-[#445f73]">Moka POS Trial</span>
+              <span className="text-[1.1rem] text-[#445f73]">BUKU-POS Trial</span>
             </div>
             <div className="flex items-center justify-between pt-8">
               <div className="flex items-center gap-5 text-[#3d5568]">
@@ -35,7 +35,7 @@ export default function BillingPage() {
             </div>
           </div>
 
-          <h2 className="mb-8 mt-14 text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h2 className="mb-8 mt-14 text-[1.15rem] font-semibold text-[#082f5a]">
             Active Outlet
           </h2>
           <div className="overflow-hidden rounded-[22px] bg-[#fafafa] shadow-sm">
@@ -55,7 +55,7 @@ export default function BillingPage() {
             </table>
           </div>
 
-          <h2 className="mb-8 mt-16 text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h2 className="mb-8 mt-16 text-[1.15rem] font-semibold text-[#082f5a]">
             Billing History
           </h2>
           <div className="overflow-hidden rounded-[22px] bg-[#fafafa] shadow-sm">
@@ -73,7 +73,7 @@ export default function BillingPage() {
                 {billingHistoryRows.map((row) => (
                   <tr key={row.id} className="bg-white">
                     <td className="px-6 py-6" colSpan={5}>
-                      <div className="text-center font-semibold text-[#0d2a42]">
+                      <div className="text-center font-semibold text-[#082f5a]">
                         {row.status}
                       </div>
                     </td>
@@ -85,7 +85,7 @@ export default function BillingPage() {
         </section>
 
         <aside>
-          <h2 className="mb-10 text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h2 className="mb-10 text-[1.15rem] font-semibold text-[#082f5a]">
             Payment
           </h2>
           <div className="rounded-[22px] bg-[#fafafa] px-8 py-8 shadow-sm">
@@ -96,10 +96,10 @@ export default function BillingPage() {
               <select
                 value={billingCycle}
                 onChange={(event) => setBillingCycle(event.target.value)}
-                className="rounded-xl border border-[#d7dde5] bg-white px-5 py-3 text-[1rem] text-[#0d2a42]"
+                className="rounded-xl border border-[#D1D5DB] bg-white px-5 py-3 text-[1rem] text-[#082f5a]"
               >
-                <option>Moka Monthly</option>
-                <option>Moka Quarterly</option>
+                <option>BUKU-POS Monthly</option>
+                <option>BUKU-POS Quarterly</option>
               </select>
             </div>
 
@@ -110,7 +110,7 @@ export default function BillingPage() {
                   Expand for detail payment per outlet.
                 </div>
               </div>
-              <ChevronRight size={28} className="text-[#0d2a42]" />
+              <ChevronRight size={28} className="text-[#082f5a]" />
             </button>
 
             <div className="rounded-[18px] bg-white px-8 py-7">
@@ -118,7 +118,7 @@ export default function BillingPage() {
                 <input
                   type="text"
                   placeholder="Insert coupon code"
-                  className="flex-1 rounded-l-xl border border-[#d7dde5] px-5 py-4 text-[1rem] outline-none"
+                  className="flex-1 rounded-l-xl border border-[#D1D5DB] px-5 py-4 text-[1rem] outline-none"
                 />
                 <button className="rounded-r-xl bg-[#c5cfd7] px-7 py-4 text-[1rem] font-semibold text-[#617888]">
                   Apply
@@ -128,7 +128,7 @@ export default function BillingPage() {
               <div className="border-t border-[#e6ebf0] pt-6">
                 <div className="flex items-start justify-between">
                   <div>
-                    <div className="text-[1.2rem] font-semibold text-[#0d2a42]">
+                    <div className="text-[1.2rem] font-semibold text-[#082f5a]">
                       Total
                     </div>
                     <div className="mt-2 text-[1.02rem] text-[#5f7688]">
@@ -136,7 +136,7 @@ export default function BillingPage() {
                     </div>
                     <div className="text-[1.02rem] text-[#1662c2]">25 Apr 2026</div>
                   </div>
-                  <div className="text-[2rem] font-bold text-[#0d2a42]">Rp 299.000</div>
+                  <div className="text-[2rem] font-bold text-[#082f5a]">Rp 299.000</div>
                 </div>
               </div>
             </div>

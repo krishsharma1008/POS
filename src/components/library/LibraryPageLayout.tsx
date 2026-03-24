@@ -51,7 +51,7 @@ export default function LibraryPageLayout({
           />
           <button
             onClick={onCreateClick}
-            className="bg-[#2563eb] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded transition-colors"
+            className="bg-[#0B4DA2] hover:bg-[#083d82] text-white text-sm px-4 py-2 rounded transition-colors"
           >
             Create {entityName}
           </button>

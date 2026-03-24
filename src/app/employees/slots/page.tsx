@@ -83,7 +83,7 @@ export default function EmployeeSlotsPage() {
                 value={search}
                 onChange={(event) => setSearch(event.target.value)}
                 placeholder="Search Employees"
-                className="w-full rounded-full border border-[#d7dde5] bg-white py-3 pl-5 pr-12 text-base text-[#425466] outline-none transition focus:border-[#4d9cf5] sm:w-[272px]"
+                className="w-full rounded-full border border-[#D1D5DB] bg-white py-3 pl-5 pr-12 text-base text-[#425466] outline-none transition focus:border-[#0B4DA2] sm:w-[272px]"
               />
               <Search
                 size={19}
@@ -94,7 +94,7 @@ export default function EmployeeSlotsPage() {
             <select
               value={filter}
               onChange={(event) => setFilter(event.target.value as SlotFilter)}
-              className="rounded-md border border-[#d7dde5] bg-white px-4 py-3 text-base text-[#364657] outline-none transition focus:border-[#4d9cf5]"
+              className="rounded-md border border-[#D1D5DB] bg-white px-4 py-3 text-base text-[#364657] outline-none transition focus:border-[#0B4DA2]"
             >
               {filters.map((option) => (
                 <option key={option} value={option}>

@@ -17,7 +17,7 @@ export default function EmailNotificationPage() {
       </h1>
 
       <section className="mb-16">
-        <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+        <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           Manage Email Notification
         </h2>
         <p className="mb-10 max-w-[860px] text-[1rem] leading-9 text-[#9a9a9a]">
@@ -60,7 +60,7 @@ export default function EmailNotificationPage() {
       </section>
 
       <section>
-        <h2 className="mb-6 border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+        <h2 className="mb-6 border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           Manage Recipient Alert Email
         </h2>
         <p className="mb-8 max-w-[860px] text-[1rem] leading-9 text-[#9a9a9a]">

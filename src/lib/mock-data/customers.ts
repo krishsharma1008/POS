@@ -10,7 +10,7 @@ export const feedbackFilters = {
 
 export const loyaltyResources = {
   compatibility:
-    "Requires Moka App v7.0 (android tablet) or v12.8 (iOS) or newer.",
+    "Requires BUKU-POS App v7.0 (android tablet) or v12.8 (iOS) or newer.",
   knowledgeCenterLabel: "KNOWLEDGE CENTER",
   blogLabel: "OUR BLOG",
 };

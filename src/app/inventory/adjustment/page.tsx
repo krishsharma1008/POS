@@ -86,7 +86,7 @@ export default function AdjustmentPage() {
         <h1 className="text-2xl font-bold text-gray-900">Adjustment</h1>
         <button
           onClick={openCreate}
-          className="bg-[#2563eb] hover:bg-blue-700 text-white text-sm px-4 py-2 rounded transition-colors"
+          className="bg-[#0B4DA2] hover:bg-[#083d82] text-white text-sm px-4 py-2 rounded transition-colors"
         >
           Create Adjustment
         </button>
@@ -225,7 +225,7 @@ export default function AdjustmentPage() {
               </button>
               <button
                 onClick={handleSave}
-                className="px-4 py-2 text-sm text-white bg-[#2563eb] rounded hover:bg-blue-700"
+                className="px-4 py-2 text-sm text-white bg-[#0B4DA2] rounded hover:bg-[#083d82]"
               >
                 Save
               </button>

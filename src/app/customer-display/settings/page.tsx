@@ -9,12 +9,12 @@ export default function CustomerDisplaySettingsPage() {
 
   return (
     <div className="max-w-[980px] px-6 py-4">
-      <h1 className="mb-12 text-[2.6rem] font-bold leading-none text-[#0d2a42]">
+      <h1 className="mb-12 text-[2.6rem] font-bold leading-none text-[#082f5a]">
         Customer Display Settings
       </h1>
 
       <section>
-        <h2 className="border-b border-[#d7dde5] pb-4 text-[1.05rem] font-semibold text-[#395468]">
+        <h2 className="border-b border-[#D1D5DB] pb-4 text-[1.05rem] font-semibold text-[#395468]">
           Feedback
         </h2>
 

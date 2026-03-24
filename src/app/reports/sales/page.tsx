@@ -611,7 +611,7 @@ export default function SalesReportPage() {
               className={clsx(
                 "w-full text-left px-5 py-3.5 text-sm transition-colors border-b border-gray-100 last:border-b-0",
                 activeSection === section
-                  ? "bg-[#2563eb] text-white font-medium"
+                  ? "bg-[#0B4DA2] text-white font-medium"
                   : "text-gray-600 hover:bg-gray-50"
               )}
             >

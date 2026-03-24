@@ -28,7 +28,7 @@ export default function ExportButton({
   const bgClass =
     variant === "dark"
       ? "bg-[#1e3a5f] hover:bg-[#16304f]"
-      : "bg-[#2563eb] hover:bg-blue-700";
+      : "bg-[#0B4DA2] hover:bg-[#083d82]";
 
   return (
     <div className="relative" ref={ref}>

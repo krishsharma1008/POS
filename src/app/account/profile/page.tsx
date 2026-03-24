@@ -33,7 +33,7 @@ function AccountBlock({
 }) {
   return (
     <section className="mb-16 max-w-[760px]">
-      <div className="mb-2 flex items-center justify-between border-b border-[#d7dde5] pb-3">
+      <div className="mb-2 flex items-center justify-between border-b border-[#D1D5DB] pb-3">
         <h2 className="text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
           {title}
         </h2>

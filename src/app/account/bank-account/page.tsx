@@ -12,7 +12,7 @@ export default function BankAccountPage() {
             <input
               type="text"
               placeholder="Search"
-              className="w-full rounded-full border border-[#d7dde5] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none"
+              className="w-full rounded-full border border-[#D1D5DB] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none"
             />
             <Search
               size={19}
@@ -22,7 +22,7 @@ export default function BankAccountPage() {
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="rounded-md border border-[#4d9cf5] bg-white px-5 py-3 text-lg font-medium text-[#2d7fd2]">
+          <button className="rounded-md border border-[#0B4DA2] bg-white px-5 py-3 text-lg font-medium text-[#2d7fd2]">
             Activity Log
           </button>
           <button className="rounded-md bg-[#337ab7] px-5 py-3 text-lg font-medium text-white">

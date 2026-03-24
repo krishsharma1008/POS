@@ -8,7 +8,7 @@ export default function GoFoodPage() {
     <div className="p-8 max-w-4xl">
       {/* Back link */}
       <Link
-        href="/online-channels/moka-order"
+        href="/online-channels/buku-order"
         className="text-blue-600 hover:underline text-sm mb-6 inline-block"
       >
         &larr; Back to Home
@@ -30,7 +30,7 @@ export default function GoFoodPage() {
         </div>
         <div className="text-right">
           <p className="text-lg text-gray-800 mb-2">Rp. 0/Outlet/Month</p>
-          <button className="bg-[#1e2433] text-white px-6 py-2.5 rounded font-medium">
+          <button className="bg-[#082f5a] text-white px-6 py-2.5 rounded font-medium">
             Get Started
           </button>
         </div>

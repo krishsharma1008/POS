@@ -26,7 +26,7 @@ export default function OutletsPage() {
           <input
             type="text"
             placeholder="Search"
-            className="w-full rounded-full border border-[#d7dde5] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none"
+            className="w-full rounded-full border border-[#D1D5DB] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none"
           />
           <Search
             size={19}
@@ -38,7 +38,7 @@ export default function OutletsPage() {
           <select
             value={filter}
             onChange={(event) => setFilter(event.target.value)}
-            className="min-w-[204px] appearance-none rounded-full border border-[#d7dde5] bg-white px-5 py-3 pr-12 text-[1.02rem] text-[#6b6b6b]"
+            className="min-w-[204px] appearance-none rounded-full border border-[#D1D5DB] bg-white px-5 py-3 pr-12 text-[1.02rem] text-[#6b6b6b]"
           >
             <option>All Gobiz Status</option>
             <option>Linked</option>
@@ -85,7 +85,7 @@ export default function OutletsPage() {
                   </span>
                 </td>
                 <td className="border-b border-[#edf1f5] px-4 py-5">
-                  <button className="rounded-md border border-[#4d9cf5] px-5 py-3 text-[1rem] text-[#2d7fd2]">
+                  <button className="rounded-md border border-[#0B4DA2] px-5 py-3 text-[1rem] text-[#2d7fd2]">
                     Link to GoBiz
                   </button>
                 </td>

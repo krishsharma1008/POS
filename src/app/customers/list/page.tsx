@@ -92,7 +92,7 @@ export default function CustomersListPage() {
             value={search}
             onChange={(event) => setSearch(event.target.value)}
             placeholder="Name, email, phone"
-            className="w-full rounded-full border border-[#d7dde5] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none transition focus:border-[#4d9cf5]"
+            className="w-full rounded-full border border-[#D1D5DB] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none transition focus:border-[#0B4DA2]"
           />
           <Search
             size={19}

@@ -28,20 +28,20 @@ export default function FeedbackPage() {
       </div>
 
       <div className="mb-11 flex flex-col gap-3 xl:flex-row xl:items-center">
-        <button className="flex min-w-[304px] items-center gap-3 rounded-md border border-[#d7dde5] bg-white px-4 py-3 text-[1rem] text-[#4c5967]">
+        <button className="flex min-w-[304px] items-center gap-3 rounded-md border border-[#D1D5DB] bg-white px-4 py-3 text-[1rem] text-[#4c5967]">
           <Store size={20} className="text-[#9aa9b9]" />
           Outlet 1
         </button>
 
-        <div className="flex overflow-hidden rounded-md border border-[#d7dde5] bg-white">
-          <button className="border-r border-[#d7dde5] px-4 text-[#6f7f8f] transition hover:bg-[#f6f9fc]">
+        <div className="flex overflow-hidden rounded-md border border-[#D1D5DB] bg-white">
+          <button className="border-r border-[#D1D5DB] px-4 text-[#6f7f8f] transition hover:bg-[#f6f9fc]">
             <ChevronLeft size={20} />
           </button>
           <button className="flex min-w-[258px] items-center justify-center gap-2 px-6 py-3 text-[1rem] text-[#4c5967]">
             23/3/2026
             <ChevronDown size={18} className="text-[#6f7f8f]" />
           </button>
-          <button className="border-l border-[#d7dde5] px-4 text-[#6f7f8f] transition hover:bg-[#f6f9fc]">
+          <button className="border-l border-[#D1D5DB] px-4 text-[#6f7f8f] transition hover:bg-[#f6f9fc]">
             <ChevronRight size={20} />
           </button>
         </div>
@@ -49,7 +49,7 @@ export default function FeedbackPage() {
         <select
           value={selectedEmployee}
           onChange={(event) => setSelectedEmployee(event.target.value)}
-          className="rounded-md border border-[#d7dde5] bg-white px-4 py-3 text-[1rem] text-[#4c5967] outline-none transition focus:border-[#4d9cf5]"
+          className="rounded-md border border-[#D1D5DB] bg-white px-4 py-3 text-[1rem] text-[#4c5967] outline-none transition focus:border-[#0B4DA2]"
         >
           {feedbackFilters.employees.map((employee) => (
             <option key={employee} value={employee}>
@@ -61,7 +61,7 @@ export default function FeedbackPage() {
         <select
           value={selectedFeedbackType}
           onChange={(event) => setSelectedFeedbackType(event.target.value)}
-          className="rounded-md border border-[#d7dde5] bg-white px-4 py-3 text-[1rem] text-[#4c5967] outline-none transition focus:border-[#4d9cf5]"
+          className="rounded-md border border-[#D1D5DB] bg-white px-4 py-3 text-[1rem] text-[#4c5967] outline-none transition focus:border-[#0B4DA2]"
         >
           {feedbackFilters.feedbackTypes.map((feedbackType) => (
             <option key={feedbackType} value={feedbackType}>

@@ -39,7 +39,7 @@ export default function CustomerDisplayCampaignPage() {
   return (
     <div className="px-6 py-4">
       <div className="mb-7 flex flex-col gap-5 lg:flex-row lg:items-start lg:justify-between">
-        <h1 className="text-[2.6rem] font-bold leading-none text-[#0d2a42]">
+        <h1 className="text-[2.6rem] font-bold leading-none text-[#082f5a]">
           Customer Display
         </h1>
 
@@ -82,7 +82,7 @@ export default function CustomerDisplayCampaignPage() {
                 <div className="absolute bottom-[70px] left-1/2 h-[88px] w-[18px] -translate-x-1/2 rounded bg-[linear-gradient(180deg,#eef4f8,#cddae4)]" />
                 <div className="absolute bottom-0 left-1/2 h-[18px] w-[150px] -translate-x-1/2 rounded-[14px] bg-[linear-gradient(180deg,#fdfefe,#dbe7ef)]" />
                 <div className="absolute bottom-[26px] left-1/2 -translate-x-1/2 text-sm font-semibold uppercase tracking-wider text-[#0892da]">
-                  Moka
+                  BUKU-POS
                 </div>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function CustomerDisplayCampaignPage() {
                 </h2>
               </div>
               <div className="hidden pt-2 text-right text-[1.2rem] font-semibold tracking-[0.18em] text-white/90 lg:block">
-                MOKA ULTRA
+                BUKU ULTRA
               </div>
             </div>
 

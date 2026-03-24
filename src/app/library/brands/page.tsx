@@ -106,7 +106,7 @@ export default function BrandsPage() {
           </button>
           <button
             onClick={openCreate}
-            className="bg-[#2563eb] text-white text-sm px-4 py-2 rounded"
+            className="bg-[#0B4DA2] text-white text-sm px-4 py-2 rounded"
           >
             Create Brand
           </button>
@@ -184,7 +184,7 @@ export default function BrandsPage() {
               </button>
               <button
                 onClick={handleSave}
-                className="px-4 py-2 text-sm text-white bg-[#2563eb] rounded hover:bg-blue-700"
+                className="px-4 py-2 text-sm text-white bg-[#0B4DA2] rounded hover:bg-[#083d82]"
               >
                 Save
               </button>

@@ -54,7 +54,7 @@ const navItems: NavItem[] = [
   {
     label: "ONLINE CHANNELS",
     children: [
-      { label: "Moka Order", href: "/online-channels/moka-order" },
+      { label: "BUKU Order", href: "/online-channels/buku-order" },
       { label: "GoFood", href: "/online-channels/gofood" },
     ],
   },
@@ -122,12 +122,14 @@ export default function Sidebar() {
     item.children?.some((c) => pathname.startsWith(c.href)) ?? false;
 
   return (
-    <aside className="fixed left-0 top-0 z-[100] flex h-screen w-[240px] pointer-events-auto flex-col bg-[#1e2433] text-white shadow-[2px_0_12px_rgba(0,0,0,0.18)]">
+    <aside className="fixed left-0 top-0 z-[100] flex h-screen w-[240px] pointer-events-auto flex-col bg-[#082f5a] text-white shadow-[2px_0_12px_rgba(0,0,0,0.18)]">
       {/* Logo + user */}
       <div className="px-5 pt-5 pb-3">
-        <div className="text-2xl font-bold tracking-widest text-white mb-4">
-          moka
+        <div className="text-2xl font-bold tracking-widest mb-1">
+          <span className="text-white">BUKU</span>
+          <span className="text-[#F5A623]">-POS</span>
         </div>
+        <p className="text-[10px] text-blue-200 tracking-wide mb-4">Mudah. Gratis. Aman</p>
         <Link href="/account/profile" className="flex items-center gap-1 text-sm text-gray-300 hover:text-white">
           Test User
           <ChevronDown size={14} />
@@ -146,8 +148,8 @@ export default function Sidebar() {
                 className={clsx(
                   "relative z-[101] block cursor-pointer px-5 py-3 text-xs font-semibold tracking-wider transition-colors",
                   active
-                    ? "text-white bg-[#2d3447]"
-                    : "text-gray-400 hover:text-white hover:bg-[#2a3040]"
+                    ? "text-white bg-[#0B4DA2]"
+                    : "text-gray-400 hover:text-white hover:bg-[#0a3d72]"
                 )}
               >
                 {item.label}
@@ -188,7 +190,7 @@ export default function Sidebar() {
                           className={clsx(
                             "relative z-[101] block cursor-pointer rounded-sm px-4 py-2 text-sm transition-colors",
                             active
-                              ? "bg-[#2a3040] text-[#4d9cf5] font-medium"
+                              ? "bg-[#0B4DA2] text-[#F5A623] font-medium border-l-3 border-[#F5A623]"
                               : "text-gray-400 hover:text-white"
                           )}
                         >
@@ -222,7 +224,7 @@ export default function Sidebar() {
               </span>
               <span className="flex items-center gap-2">
                 {item.badge && (
-                  <span className="text-[10px] bg-[#4d9cf5] text-white px-1.5 py-0.5 rounded font-bold">
+                  <span className="text-[10px] bg-[#F5A623] text-[#082f5a] px-1.5 py-0.5 rounded font-bold">
                     {item.badge}
                   </span>
                 )}
@@ -234,14 +236,14 @@ export default function Sidebar() {
       </nav>
 
       {/* Bottom */}
-      <div className="px-4 pb-4 pt-2 border-t border-[#2d3447]">
+      <div className="px-4 pb-4 pt-2 border-t border-[#0a3d72]">
         <div className="flex items-center gap-2 text-gray-400 text-xs mb-3">
           <Phone size={12} />
           <span>1500970</span>
         </div>
         <button
           type="button"
-          className="relative z-[101] w-full cursor-pointer rounded bg-[#2563eb] px-3 py-2 text-sm text-white transition-colors hover:bg-blue-700"
+          className="relative z-[101] w-full cursor-pointer rounded bg-[#F5A623] px-3 py-2 text-sm text-[#082f5a] font-semibold transition-colors hover:bg-[#e09510] flex items-center gap-2 justify-center"
         >
           <HelpCircle size={14} />
           Tutorials &amp; Help

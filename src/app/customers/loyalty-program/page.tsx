@@ -20,9 +20,9 @@ export default function LoyaltyProgramPage() {
                 </div>
                 <div>
                   <p className="text-[1.15rem] font-semibold">
-                    Introduction to Moka Loyalty Program
+                    Introduction to BUKU-POS Loyalty Program
                   </p>
-                  <p className="text-base text-white/85">Moka Indonesia</p>
+                  <p className="text-base text-white/85">BukuWarung</p>
                 </div>
               </div>
             </div>

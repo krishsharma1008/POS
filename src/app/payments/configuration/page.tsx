@@ -16,7 +16,7 @@ export default function PaymentConfigurationPage() {
             <input
               type="text"
               placeholder="Search"
-              className="w-full rounded-full border border-[#d7dde5] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none transition focus:border-[#4d9cf5]"
+              className="w-full rounded-full border border-[#D1D5DB] bg-white py-3 pl-5 pr-12 text-[1.02rem] text-[#425466] outline-none transition focus:border-[#0B4DA2]"
             />
             <Search
               size={19}
@@ -29,7 +29,7 @@ export default function PaymentConfigurationPage() {
           <div className="flex items-center gap-4 rounded-md border border-[#f2dda6] bg-[#fff5dc] px-5 py-4 text-[#a17b34]">
             <Info size={18} className="shrink-0" />
             <p className="text-[1rem]">
-              Please update to the latest version of Moka on iOS and Android
+              Please update to the latest version of BUKU-POS on iOS and Android
               devices to use this feature.
             </p>
           </div>

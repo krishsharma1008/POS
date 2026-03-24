@@ -3,7 +3,7 @@ export const customerDisplayCampaignSlides = [
     id: "showcase-promo",
     title: "Showcase promo",
     description:
-      "With MOKA Register, promoting your business has never been easier. Upload your latest promotional campaigns and let your customers discover exciting offers right at the cashier. The double display system ensures that your promotions are front and center, capturing your customers' attention and driving impulse purchases.",
+      "With BUKU Register, promoting your business has never been easier. Upload your latest promotional campaigns and let your customers discover exciting offers right at the cashier. The double display system ensures that your promotions are front and center, capturing your customers' attention and driving impulse purchases.",
   },
   {
     id: "showcase-brand",
@@ -25,4 +25,4 @@ export const customerDisplayFilters = {
 };
 
 export const customerDisplaySettingsNotice =
-  "This feature currently only works on Moka Prime";
+  "This feature currently only works on BUKU Prime";

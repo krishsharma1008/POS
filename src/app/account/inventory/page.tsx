@@ -22,7 +22,7 @@ function ConfigCard({
       type="button"
       onClick={onClick}
       className={`rounded-xl border p-4 text-left transition ${
-        selected ? "border-[#2d7fd2] bg-[#f4f8ff]" : "border-[#d7dde5] bg-white"
+        selected ? "border-[#2d7fd2] bg-[#f4f8ff]" : "border-[#D1D5DB] bg-white"
       }`}
     >
       <div className="mb-4 flex items-start gap-3">
@@ -74,7 +74,7 @@ export default function AccountInventoryPage() {
 
       <section className="mb-20 grid gap-10 xl:grid-cols-[0.7fr_1.3fr]">
         <div>
-          <h3 className="text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h3 className="text-[1.15rem] font-semibold text-[#082f5a]">
             Purchase Order Configuration
           </h3>
           <p className="mt-4 text-[1rem] leading-9 text-[#666]">
@@ -101,7 +101,7 @@ export default function AccountInventoryPage() {
 
       <section className="mb-12 grid gap-10 xl:grid-cols-[0.7fr_1.3fr]">
         <div>
-          <h3 className="text-[1.15rem] font-semibold text-[#0d2a42]">
+          <h3 className="text-[1.15rem] font-semibold text-[#082f5a]">
             Transfer Configuration
           </h3>
           <p className="mt-4 text-[1rem] leading-9 text-[#666]">
@@ -124,7 +124,7 @@ export default function AccountInventoryPage() {
       </section>
 
       <div className="flex justify-end gap-4">
-        <button className="rounded-md border border-[#d7dde5] bg-white px-6 py-3 text-[1.1rem] text-[#333]">
+        <button className="rounded-md border border-[#D1D5DB] bg-white px-6 py-3 text-[1.1rem] text-[#333]">
           Cancel
         </button>
         <button className="rounded-md bg-[#337ab7] px-6 py-3 text-[1.1rem] font-medium text-white">

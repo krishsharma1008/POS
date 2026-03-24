@@ -5,7 +5,7 @@ import { qrisRegistration } from "@/lib/mock-data/payments";
 export default function QrisPage() {
   return (
     <div className="px-6 py-4">
-      <h1 className="mb-7 text-[2.6rem] font-bold leading-none text-[#0d2a42]">
+      <h1 className="mb-7 text-[2.6rem] font-bold leading-none text-[#082f5a]">
         QRIS
       </h1>
 
@@ -65,7 +65,7 @@ export default function QrisPage() {
       <div className="grid gap-8 xl:grid-cols-[1.05fr_0.95fr]">
         <section className="space-y-10 pl-2 text-[#39556a]">
           <div>
-            <h2 className="mb-10 text-[1.2rem] font-semibold text-[#0d2a42]">
+            <h2 className="mb-10 text-[1.2rem] font-semibold text-[#082f5a]">
               Accepting QRIS Payment with Ease
             </h2>
 
@@ -106,7 +106,7 @@ export default function QrisPage() {
         </section>
 
         <aside className="rounded-[22px] bg-[#f8f8f9] px-8 py-10 shadow-sm">
-          <h2 className="mb-6 text-[1.25rem] font-semibold text-[#0d2a42]">
+          <h2 className="mb-6 text-[1.25rem] font-semibold text-[#082f5a]">
             QRIS Registration
           </h2>
 

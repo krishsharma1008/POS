@@ -15,7 +15,7 @@ export default function ReceiptPage() {
         Receipt
       </h1>
 
-      <div className="mb-8 border-b border-[#d7dde5]">
+      <div className="mb-8 border-b border-[#D1D5DB]">
         <div className="flex items-center gap-16">
           <button
             onClick={() => setActiveTab("customization")}
@@ -42,7 +42,7 @@ export default function ReceiptPage() {
       </div>
 
       <div className="mb-8 max-w-[304px]">
-        <button className="flex w-full items-center gap-3 rounded-md border border-[#d7dde5] bg-white px-4 py-3 text-[1rem] text-[#4c5967]">
+        <button className="flex w-full items-center gap-3 rounded-md border border-[#D1D5DB] bg-white px-4 py-3 text-[1rem] text-[#4c5967]">
           <Store size={20} className="text-[#9aa9b9]" />
           Outlet 1
         </button>
@@ -50,7 +50,7 @@ export default function ReceiptPage() {
 
       <div className="grid gap-10 xl:grid-cols-[1fr_0.98fr]">
         <section className="rounded-sm bg-white">
-          <div className="border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+          <div className="border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
             Receipt Info
           </div>
 
@@ -130,7 +130,7 @@ export default function ReceiptPage() {
         </section>
 
         <aside>
-          <div className="border-b border-[#d7dde5] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
+          <div className="border-b border-[#D1D5DB] pb-3 text-[1rem] font-medium uppercase tracking-wide text-[#6a6a6a]">
             Receipt Preview
           </div>
 
@@ -148,7 +148,7 @@ export default function ReceiptPage() {
                 </p>
               </div>
 
-              <div className="border-t border-[#d7dde5] py-5 text-[1rem] text-[#666]">
+              <div className="border-t border-[#D1D5DB] py-5 text-[1rem] text-[#666]">
                 <div className="flex justify-between">
                   <span>23 Mar 2026</span>
                   <span>14:09</span>
@@ -163,7 +163,7 @@ export default function ReceiptPage() {
                 </div>
               </div>
 
-              <div className="border-t border-[#d7dde5] py-5">
+              <div className="border-t border-[#D1D5DB] py-5">
                 {receiptPreviewItems.map((item) => (
                   <div key={item.id} className="mb-6">
                     <div className="grid grid-cols-[1fr_auto_auto] gap-4 text-[1rem] text-[#444]">

@@ -120,7 +120,7 @@ export function CreateEditModal({
                     updateField(field.key, !formState[field.key])
                   }
                   className={`relative inline-flex h-6 w-11 items-center rounded-full transition-colors ${
-                    formState[field.key] ? "bg-[#2563eb]" : "bg-gray-300"
+                    formState[field.key] ? "bg-[#0B4DA2]" : "bg-gray-300"
                   }`}
                 >
                   <span
@@ -147,7 +147,7 @@ export function CreateEditModal({
           </button>
           <button
             onClick={handleSave}
-            className="px-4 py-2 text-sm text-white bg-[#2563eb] hover:bg-blue-700 rounded transition-colors"
+            className="px-4 py-2 text-sm text-white bg-[#0B4DA2] hover:bg-[#083d82] rounded transition-colors"
           >
             Save
           </button>

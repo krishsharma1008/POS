@@ -35,7 +35,7 @@ export default function PinAccessPage() {
         </h1>
 
         <div className="max-w-[1320px] space-y-8 text-[1.05rem] leading-10 text-[#414c58]">
-          <p>PIN Access is a feature to lock certain access in Moka Apps.</p>
+          <p>PIN Access is a feature to lock certain access in BUKU-POS App.</p>
 
           <p>
             This PIN configuration will apply to outlets who have staff with PIN
@@ -53,7 +53,7 @@ export default function PinAccessPage() {
           <div className="flex max-w-[510px] items-start gap-4 rounded border border-[#efbf72] bg-[#ffedcb] px-5 py-5 text-[1.02rem] leading-8 text-[#49525c]">
             <Info className="mt-1 shrink-0 text-[#f3aa35]" size={28} />
             <p>
-              Pin Access requires at least Moka v.26.2 on iOS and Moka v.15.9.1
+              Pin Access requires at least BUKU-POS v.26.2 on iOS and BUKU-POS v.15.9.1
               on Android.
             </p>
           </div>

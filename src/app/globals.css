@@ -3,6 +3,25 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+
+  /* BukuWarung Brand Palette */
+  --buku-blue: #0B4DA2;
+  --buku-blue-dark: #082f5a;
+  --buku-blue-light: #1a6bc4;
+  --buku-blue-hover: #083d82;
+  --buku-yellow: #F5A623;
+  --buku-yellow-hover: #e09510;
+  --buku-green: #27AE60;
+  --buku-red: #e35f53;
+
+  /* Sidebar */
+  --sidebar-bg: #082f5a;
+  --sidebar-hover: #0a3d72;
+  --sidebar-active: #0B4DA2;
+
+  /* Content */
+  --content-bg: #F7F8FA;
+  --form-border: #D1D5DB;
 }
 
 @theme inline {
